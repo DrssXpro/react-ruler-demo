@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content-box {
+  display: flex;
+  width: 95vw;
+  height: 95vh;
+  border: 1px solid red;
+}
+
+.content-center {
+  flex: 1;
+  background-color: #eee;
+  border: 1px solid blue;
+}
+
+.content-left,
+.content-right {
+  width: 200px;
+  height: 100%;
+  flex-shrink: 0;
+  border: 1px solid #000;
+}
+
+

@@ -1,0 +1,60 @@
+.fs-ruler-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.left {
+  width: 20px;
+  height: 100%;
+}
+
+.px-box {
+  font-size: 12px;
+  text-align: center;
+  height: 20px;
+  background: #fff;
+}
+
+.right {
+  flex: 1;
+}
+
+.content-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.content-button {
+  position: fixed;
+  top: 50px;
+  left: 100px;
+  z-index: 100;
+}
+
+.content-layout {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.content-canvas {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform-origin: left top;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.canvas-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1600px;
+  height: 1200px;
+  border: 1px solid red;
+}
